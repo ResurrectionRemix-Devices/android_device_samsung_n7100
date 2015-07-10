@@ -167,6 +167,6 @@
     <!-- Specifies whether the dreams feature should be supported.
          When true, the system will allow the user to configure dreams (screensavers)
          to launch when a user activity timeout occurs or the system is told to nap.
-         When false, the dreams feature will be disabled (this does not affect dozing).
+         When false, the dreams feature will be disabled (this does not affect dozing). -->
 
 </resources>
