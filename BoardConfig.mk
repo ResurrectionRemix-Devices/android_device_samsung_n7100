@@ -35,7 +35,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_n7100_defconfig
 BOARD_SEPOLICY_DIRS := \
     device/samsung/n7100/selinux
 
-BOARD_SEPOLICY_UNION := \
+BOARD_SEPOLICY_UNION += \
     device.te \
     domain.te \
     file.te \
@@ -46,15 +46,7 @@ BOARD_SEPOLICY_UNION := \
     system.te \
     ueventd.te \
     vold.te \
-    wpa_supplicant.te \
-    hostapd.te \
-    installd.te \
-    netd.te \
-    platform_app.te \
-    radio.te \
-    system_app.te \
-    system_server.te \
-    untrusted_app.te
+    wpa_supplicant.te
 
 
 # assert
