@@ -46,7 +46,16 @@ BOARD_SEPOLICY_UNION := \
     system.te \
     ueventd.te \
     vold.te \
-    wpa_supplicant.te
+    wpa_supplicant.te \
+    hostapd.te \
+    installd.te \
+    netd.te \
+    platform_app.te \
+    radio.te \
+    system_app.te \
+    system_server.te \
+    untrusted_app.te
+
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100

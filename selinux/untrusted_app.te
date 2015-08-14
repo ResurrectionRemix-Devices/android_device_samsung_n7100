@@ -1,0 +1,2 @@
+allow untrusted_app unlabeled:dir { setattr read create write getattr remove_name open add_name };
+allow untrusted_app unlabeled:file { rename execute read lock create write getattr open append };

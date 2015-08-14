@@ -1,0 +1,2 @@
+allow installd unlabeled:dir setattr;
+allow installd unlabeled:lnk_file create;
