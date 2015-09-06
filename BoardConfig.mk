@@ -44,6 +44,11 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/n7100/include
 TARGET_RECOVERY_FSTAB := device/samsung/n7100/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
 
+
+#LZMA compression
+WITH_LZMA_OTA:= true
+
+
 #RR
 TARGET_TC_ROM := 4.9
 
