@@ -6,7 +6,7 @@
     {
         "repository": "android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412"
-	"revision": "cm-12.1"
+	"revision": "n7100"
     },
     {
         "repository": "android_packages_apps_SamsungServiceMode",
