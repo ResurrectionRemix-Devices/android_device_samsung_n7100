@@ -1,12 +1,12 @@
 [
     {
         "repository": "android_device_samsung_smdk4412-common",
-        "target_path": "device/samsung/smdk4412-common"
+        "target_path": "device/samsung/smdk4412-common",
 	"revision": "n7100"
     },
     {
         "repository": "android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412"
+        "target_path": "kernel/samsung/smdk4412",
 	"revision": "n7100"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
         "repository": "android_hardware_samsung",
-        "target_path": "hardware/samsung"
+        "target_path": "hardware/samsung",
 	"revision": "n7100"
     }
 ]
